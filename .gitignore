@@ -1,0 +1,20 @@
+# Data
+data/raw/
+data/processed/
+*.h5ad
+*.celloracle.oracle
+*.celloracle.links
+*.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+env/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
