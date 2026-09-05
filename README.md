@@ -23,9 +23,9 @@ Partial reprogramming — transient expression of the Yamanaka factors (Sox2, Oc
 | Preprocessing and QC | Scanpy; Scrublet doublet removal | `notebooks/01_preprocessing.ipynb` |
 | Clustering and annotation | Leiden clustering; marker-gene validation | `notebooks/02_clustering_annotation.ipynb` |
 | GRN inference | CellOracle (mouse base GRN; per-cluster regression) | `notebooks/03_grn_construction.ipynb` |
-| Perturbation and validation | In-silico simulation; correlation against the measured screen; null models | `notebooks/04_perturbation_validation.ipynb` |
-| Ageing axis and scoring | Data-derived ageing signature; gradient-based perturbation scoring | `notebooks/05_aging_axis_scoring.ipynb` |
-| Robustness | Activation-independent ageing axis; combination classifier | `notebooks/06_robustness.ipynb` |
+| Perturbation and validation | In-silico simulation; correlation against the measured screen; null models | `notebooks/04_aging_axis_and_validation.ipynb` |
+| Ageing axis and scoring | Data-derived ageing signature; gradient-based perturbation scoring | `notebooks/05_rejuvenation_scoring.ipynb` |
+| Robustness | Activation-independent ageing axis; combination classifier | `notebooks/06_robustness_and_composition.ipynb` |
 
 The cell populations are parallel identities rather than stages of a differentiation trajectory; analysis uses group contrasts (young versus aged, treated versus untreated) rather than trajectory inference. See `docs/decisions.md`.
 
